@@ -6,7 +6,8 @@ This repo is forked from [Mozilla Deepspeech 0.9.3 repository](https://github.co
 #### 1. Build a docker image for DeepSpeech environment
 
 ```
-docker build . <your username>/traindeepspeech
+cd FineTuneDeepSpeech
+docker build -t <your username>/traindeepspeech .
 ```
 
 #### 2. Run the docker image as a container
